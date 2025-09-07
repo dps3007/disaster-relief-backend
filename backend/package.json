@@ -1,0 +1,35 @@
+{
+  "name": "digistar-relif-backend",
+  "version": "1.0.0",
+  "description": "Disaster Relief Resource Allocation System",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Disaster",
+    "Relief",
+    "Resource",
+    "Allocation",
+    "System"
+  ],
+  "author": "Deepanshu Pal <pal30072002@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "redis": "^5.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
+}
